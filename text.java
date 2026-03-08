@@ -1,25 +1,25 @@
-public class text {
+public class Text {
 
-    public text() {
+    public Text() {
         System.out.println("constructor with empty parameter");
     }
 
-    public text(int a) {
+    public Text(int a) {
         System.out.println("constructor with a " + a);
     }
 
-    public text(float a, int c) {
+    public Text(float a, int c) {
         System.out.println("constructor with a " + a + " " + c);
     }
 
-    public text(int c, int a) {
+    public Text(int c, int a) {
         System.out.println("Constructor with a " + a + " " + c);
     }
 
     public static void main(String[] args) {
-        new text();
-        new text(2f, 7);
-        new text(4, 8);
-        new text(3);
+        new Text();
+        new Text(2f, 7);
+        new Text(4, 8);
+        new Text(3);
     }
 }
